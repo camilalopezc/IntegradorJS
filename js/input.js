@@ -1,4 +1,4 @@
-totalAPagar(int cantidad, string categoria){
+function totalAPagar(int cantidad, string categoria){
     float total;
     if(categoria == 'Estudiante'){
         total = cantidad * (200-(80*200/100))
