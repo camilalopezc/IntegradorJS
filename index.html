@@ -86,10 +86,10 @@
             <h6>Categoria</h6>
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Cantidad" name="cantidad">
+            <input id="Cantidad" type="text" class="form-control" placeholder="Cantidad" name="cantidad">
           </div>
           <div class="col">
-            <select class="form-select  text-muted">
+            <select id="Categoria" class="form-select  text-muted">
               <option>Categoria</option>
               <option>Estudiante</option>
               <option>Trainee</option>
@@ -98,11 +98,12 @@
           </div>        
         </div>                   
         <div class="col margin1">
-          <input type="text" class="form-control" placeholder="Total a pagar" name="Total a Pagar: $">
+          <input type="text" class="form-control" placeholder="Total a pagar" name="Total a Pagar: $">        
         </div>
+
         <div class="justify-content-between d-flex"> 
           <input type="reset" class="btn btn-success col-5" value="Borrar"></button>
-          <button type="button" class="btn btn-success col-5">Resumen</button>
+          <button type="submit" onclick="totalAPagar(Cantidad, Categoria)" class="btn btn-success col-5">Resumen</button>
         </div>  
       </div>
 
