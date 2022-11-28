@@ -84,3 +84,13 @@
     padding-right:200px;
     padding-left: 200px;  
 }
+
+.container{
+    grid-column: 2/12;
+    grid-row: 1/3;
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
